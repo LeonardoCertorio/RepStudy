@@ -12,20 +12,20 @@ String soma() {
   //Se vier nulo, a variável nome recebe uma string vazia = " "
   String? primNum = stdin.readLineSync() ?? " ";
   if (primNum.trim().isEmpty) {
-    return ("Não foi digitado um número!");    
+    print("Não foi digitado um número!");    
   }
   print("Digite o outro número...");
   //Se vier nulo, a variável idade recebe uma string vazia = " "
   String? segNum = stdin.readLineSync() ?? " ";
   if (segNum.trim().isEmpty) {
-    return ("Não foi digitado um número!");    
+    print("Não foi digitado um número!");    
   }
 
   int num1 = int.parse(primNum);
   int num2 = int.parse(segNum);
   int calc = num1 +num2;
 
-  return "A soma é igual a $calc";
+  return 'A soma é igual a $calc';
 }
 
 //Ex A3
@@ -105,3 +105,24 @@ String numerosPares() {
   return 'Estes são os números pares: $n';
 }
 
+//Ex B2
+String funcBubbleSort() {
+	int i, j, aux = 0;
+  List lista = [7,1,6,2,5,3,4];
+	
+	for (i = 0; i < lista.length; i++) {
+		for (j = 0; j < lista.length - i - 1; j++) {
+			if (lista[j] > lista[j+1] ) {
+				aux = lista[j];
+				lista[j] = lista[j+1];
+				lista[j+1] = aux;
+			}
+    }
+  }
+  int maior = lista[lista.length-1];
+  int menor = lista[0];
+  
+  return '$menor é o menor e $maior é o maior';
+}
+
+//Ex B3
