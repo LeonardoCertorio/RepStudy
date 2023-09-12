@@ -5,5 +5,7 @@ void main(List<String> arguments) {
   //print(dart_application_1.oi());  
   //print(dart_application_1.compara());
   //print(dart_application_1.areaCirculo());
-  print(dart_application_1.nomeIdade());  
+  //print(dart_application_1.nomeIdade());
+  //print(dart_application_1.numerosPares()); 
+  //print(dart_application_1.funcBubbleSort()); 
 }
