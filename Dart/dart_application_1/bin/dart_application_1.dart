@@ -9,4 +9,5 @@ void main(List<String> arguments) {
   //print(dart_application_1.numerosPares()); 
   //print(dart_application_1.funcBubbleSort()); 
   //print(dart_application_1.mapaIdadeNomes());
+  //print(dart_application_1.intersec());
 }
