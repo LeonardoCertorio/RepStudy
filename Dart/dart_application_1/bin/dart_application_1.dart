@@ -10,4 +10,5 @@ void main(List<String> arguments) {
   //print(dart_application_1.funcBubbleSort()); //2B
   //dart_application_1.mapaIdadeNomes(); //3B
   //dart_application_1.intersec(); //4B
+  //dart_application_1.exclusivos(); //5B
 }
