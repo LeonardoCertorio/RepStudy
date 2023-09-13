@@ -139,7 +139,7 @@ void mapaIdadeNomes() {
 }
 
 //Ex B4
-String intersec() {
+void intersec() {
   List lista1 = [5,3,6,7,7,2,9];
   List lista2 = [0,1,2,2,3,4,5];
   List encontro = [];
@@ -149,5 +149,7 @@ String intersec() {
       encontro.add(i);
     }    
   }
-  return "A intersecção entre os conjuntos é $encontro";
+  print('A intersecção entre os conjuntos é $encontro');
 }
+
+//Ex B5
